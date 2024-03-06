@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruby.Web.Game.PWA</title>
+    <base href="/" />
+    <link rel="stylesheet" href="css/app.css" />
+
+    <!-- If you add any scoped CSS files, uncomment the following to load them -->
+    <link href="Ruby.Web.Game.PWA.styles.css" rel="stylesheet" />
+
+    <!-- PWA
+    <link href="manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+
+     <!-- MUDBLAZOR -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+
+    <!-- MAPBOX -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css" />
+
+    <!-- ViewerJsBlazor -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.4/viewer.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- LOADER -->
+    <!-- <mud-ex-app-loader AccentColor="#007785" MainAppId="app" Logo="/img/loadinglogo.png" /> -->
+
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <!--  BLAZOR  -->
+    <!-- <script src="_framework/blazor.webassembly.js"></script> -->
+    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
+
+    <!--  ENVIRONEMENT CHOICE -->
+    <script>
+        if (window.location.hostname.includes("localhost")) {
+            Blazor.start({
+                environment: "Development"
+            });
+            console.log('%c Blazor.start  environment: Development ', 'background: #222; color: #B593E7');
+        }
+        else if (window.location.hostname.includes("staging")) {
+            Blazor.start({
+                environment: "Staging"
+            });
+            console.log('%c Blazor.start  environment: Staging ', 'background: #222; color: #B593E7');
+        }
+        else {
+            Blazor.start();
+        }
+    </script>
+
+    <!--  BLAZOR  PWA -->
+    <!-- <script>navigator.serviceWorker.register('service-worker.js');</script> --> <!--default original -->
+    <script src="sw-registrator.js"></script> <!--will launch service-worker.js and manage updates -->
+    <!-- MUDBLAZOR -->
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+
+    <!--  MUDBLAZOR.Extensions  -->
+    <script src="_content/MudBlazor.Extensions/js/components/MudExAppLoader.min.js"></script>
+
+    <!-- BROWSER API GPS -->
+    <script src="_content/BrowserInterop/scripts.js"></script>
+
+    <!-- Blazorise.Animate  -->
+    <script src="_content/Blazorise.Animate/blazorise.animate.js?v=1.4.2.0"></script>
+
+    <!-- ViewerJsBlazor -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.4/viewer.min.js"></script>
+    <script src="_content/ViewerJsBlazor/interop.js"></script>
+
+    <!-- debug -->
+    <script src="/js/debug.js"></script>
+
+</body>
+
+</html>

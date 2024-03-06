@@ -1,0 +1,169 @@
+@import '_content/Ruby.Plugin.AudioManager/Ruby.Plugin.AudioManager.bundle.scp.css';
+@import '_content/Ruby.Plugin.JsonTreeViewer/Ruby.Plugin.JsonTreeViewer.bundle.scp.css';
+@import '_content/Ruby.Plugin.Mapbox/Ruby.Plugin.Mapbox.bundle.scp.css';
+@import '_content/Ruby.Plugin.QRCodeScanner/Ruby.Plugin.QRCodeScanner.bundle.scp.css';
+@import '_content/Ruby.Plugin.WebShare/Ruby.Plugin.WebShare.bundle.scp.css';
+@import '_content/Ruby.Web.UI/Ruby.Web.UI.bundle.scp.css';
+@import '_content/Nextended.Blazor/Nextended.Blazor.bundle.scp.css';
+
+/* /Layout/EmptyLayout.razor.rz.scp.css */
+#blazor-error-ui[b-waklpmb7x3] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-waklpmb7x3] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+/* /Layout/MainLayout.razor.rz.scp.css */
+
+/** ----------------- **/
+.greenSalamanderBg[b-g76gtw38xk] {
+    background: url(/img/salamanders/bg_green_salamander.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (orientation: landscape) {
+    .greenSalamanderBg[b-g76gtw38xk] {
+        background: url(img/salamanders/bg_green_salamander_paysage.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+/** ----------------- **/
+
+.blueSalamanderBg[b-g76gtw38xk] {
+    background: url(img/salamanders/bg_blue_salamander.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (orientation: landscape) {
+    .blueSalamanderBg[b-g76gtw38xk] {
+        background: url(img/salamanders/bg_blue_salamander_paysage.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+/** ----------------- **/
+
+.redSalamanderBg[b-g76gtw38xk] {
+    background: url(img/salamanders/bg_red_salamander.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (orientation: landscape) {
+    .redSalamanderBg[b-g76gtw38xk] {
+        background: url(img/salamanders/bg_red_salamander_paysage.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+/** ----------------- **/
+
+.yellowSalamanderBg[b-g76gtw38xk] {
+    background: url(img/salamanders/bg_yellow_salamander.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (orientation: landscape) {
+    .yellowSalamanderBg[b-g76gtw38xk] {
+        background: url(img/salamanders/bg_yellow_salamander_paysage.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+/** ----------------- **/
+
+.orangeSalamanderBg[b-g76gtw38xk] {
+    background: url(img/salamanders/bg_orange_salamander.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (orientation: landscape) {
+    .orangeSalamanderBg[b-g76gtw38xk] {
+        background: url(img/salamanders/bg_orange_salamander_paysage.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+/** ----------------- **/
+
+.brownSalamanderBg[b-g76gtw38xk] {
+    background: url(img/salamanders/bg_brown_salamander.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (orientation: landscape) {
+    .brownSalamanderBg[b-g76gtw38xk] {
+        background: url(img/salamanders/bg_brown_salamander_paysage.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+/** ----------------- **/
+
+.purpleSalamanderBg[b-g76gtw38xk] {
+    background: url(img/salamanders/bg_purple_salamander.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (orientation: landscape) {
+    .purpleSalamanderBg[b-g76gtw38xk] {
+        background: url(img/salamanders/bg_purple_salamander_paysage.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+.linearBg[b-g76gtw38xk] {
+    background-image: linear-gradient( 109.6deg, rgba(0,182,255,1) 11.2%, rgba(102,51,153,1) 91.1% );
+}

@@ -1,0 +1,107 @@
+/* _content/Ruby.Web.UI/Components/Dialogs/ServiceWorkerUpdateAvailableDetector.razor.rz.scp.css */
+.floating-update-button[b-vz78z3tfhd] {
+    position: fixed;
+    right: 2rem;
+    bottom: 4rem;
+    padding: 1rem 1.5rem;
+    animation: fadein-b-vz78z3tfhd 2s ease-out;
+    background-color: #00858E;
+    z-index: 100000;
+}
+
+@keyframes fadein-b-vz78z3tfhd {
+    from {
+        right: -100%;
+    }
+
+    to {
+        right: 2rem;
+    }
+}
+/* _content/Ruby.Web.UI/Components/Game/Main/GameMap.razor.rz.scp.css */
+#map[b-at76l73640] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+#overBox[b-at76l73640] {
+    position: absolute;
+    background-color: #00ff90;
+    right: 0;
+    top: 50px;
+    width: 400px;
+    height: 100px;
+    z-index: 2;
+    padding: 10px;
+    margin: 10px;
+    opacity: 0.5;
+}
+/* _content/Ruby.Web.UI/Components/Game/Main/GameScanner.razor.rz.scp.css */
+.spacerV[b-fd5ygizo61] {
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+@media screen and (min-height: 800px) {
+    .spacerV[b-fd5ygizo61] {
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (min-height: 700px) {
+    .spacerV[b-fd5ygizo61] {
+        padding-top: 80px;
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (min-height: 600px) {
+    .spacerV[b-fd5ygizo61] {
+        padding-top: 60px;
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (min-height: 500px) {
+    .spacerV[b-fd5ygizo61] {
+        padding-top: 50px;
+        padding-bottom: 200px;
+    }
+}
+
+.centerH[b-fd5ygizo61] {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* _content/Ruby.Web.UI/Components/Game/Main/RouteStepUI.razor.rz.scp.css */
+.spacerV[b-u60mt9zce5] {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media screen and (min-height: 700px) {
+    .spacerV[b-u60mt9zce5] {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
+
+.rightSide[b-u60mt9zce5] {
+    position: absolute;
+    right: 15px;
+    top: 75px;
+}
+
+.leftSide[b-u60mt9zce5] {
+    position: absolute;
+    left: 15px;
+    top: 75px;
+}
